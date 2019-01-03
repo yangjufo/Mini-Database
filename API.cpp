@@ -246,7 +246,7 @@ int main()
 			results = DoSelect(parsetree.conditions);
 			Print(parsetree.tableInfo, results);
 			end1 = clock();
-			cout << (double)(start1 - end1) / CLOCKS_PER_SEC<<endl;
+			//cout << (double)(start1 - end1) / CLOCKS_PER_SEC<<endl;
 			break;
 		case CRETAB:
 			cata.CreateTable_catalog(parsetree.tableInfo);
